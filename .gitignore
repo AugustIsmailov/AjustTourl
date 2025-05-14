@@ -1,0 +1,8 @@
+syntax: glob
+.orig
+build
+.vscode
+.zb
+.prettierrc
+.keep
+.bp

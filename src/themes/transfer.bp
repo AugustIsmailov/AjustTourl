@@ -1,0 +1,15 @@
+{
+  "positions" : [ {
+    "id" : "/Transfer",
+    "x" : 984,
+    "y" : 2391
+  }, {
+    "id" : "/TransferHandler",
+    "x" : 1070,
+    "y" : 6444
+  }, {
+    "id" : "/TransferUnavailable",
+    "x" : 290,
+    "y" : 3840
+  } ]
+}

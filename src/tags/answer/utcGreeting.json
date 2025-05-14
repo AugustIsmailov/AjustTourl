@@ -1,0 +1,29 @@
+{
+    "tagName": "UtcGreeting",
+    "customTagType": "JS",
+    "scenarioFile": "tags/answer/answer.js",
+    "functionName": "utcGreeting",
+    "caption": {
+        "ru": "Приветствие с учетом времени суток",
+        "eng": "Greeting based on time of day"
+    },
+    "description": {
+        "ru": "Этот блок выводит приветственную фразу в зависимости от текущего времени суток. Фраза берется из группы «Приветствие» в модуле базы знаний «FAQ.Контент».",
+        "end": "This block sends a greeting based on the current time of day. The phrase is taken from the “Приветствие” group in the “FAQ.Контент” knowledge base module."
+    },
+    "parameters": [
+        {
+        "name": "timeZone",
+        "type": "integer",
+        "required": true,
+        "localization": {
+            "ru": "Часовой пояс",
+            "eng": "Time zone"
+        },
+        "description": {
+            "ru": "Смещение часового пояса, относительно которого рассчитывается текущее время, от часового пояса UTC.",
+            "eng": "The UTC offset of the time zone relative to which the current time should be calculated."
+        }
+    }
+]
+}

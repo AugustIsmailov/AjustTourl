@@ -1,0 +1,19 @@
+{
+    "tagName": "CountSessionNumber",
+    "customTagType": "JS",
+    "scenarioFile": "tags/count/count.js",
+    "functionName": "countSessionNumber",
+    "caption": {
+        "ru": "Счетчик сессий",
+        "eng": "Session counter"
+    },
+    "description": {
+        "ru": "Этот блок включает подсчет сессий, в которых бот общается с пользователем. Число сессий учитывается при повторных звонках.",
+        "eng": "This block enables counting the number of sessions with the current user. This number affects the bot behavior when making follow-up calls."
+    },
+    "hint": {
+        "ru": "Включить подсчет сессий с текущим пользователем",
+        "eng": "Count the number of sessions with the current user"
+    },
+    "parameters": []
+}

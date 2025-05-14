@@ -1,0 +1,57 @@
+chatwidget:
+    buttons:
+        usage: true
+i_digital:
+    inlineButtons:
+        usage: true
+        amount: 2
+        textLength: 20
+    buttons:
+        usage: true
+        amount: 2
+        textLength: 20
+telegram:
+    inlineButtons:
+        usage: true
+        textLength: 15
+    buttons:
+        usage: true
+        textLength: 20
+whatsapp:
+    inlineButtons:
+        usage: true
+        amount: 3
+        textLength: 20
+    buttons:
+        usage: true
+        amount: 3
+        textLength: 20
+vk:
+    inlineButtons:
+        usage: true
+        textLength: 20
+    buttons:
+        usage: true
+        textLength: 20
+odnoklassniki:
+    inlineButtons:
+        usage: false
+    buttons:
+        usage: false
+bitrix:
+    inlineButtons:
+        usage: false
+    buttons:
+        usage: false
+incoming_webim2:
+    inlineButtons:
+        usage: false
+    buttons:
+        usage: false
+zendesk:
+    inlineButtons:
+        usage: false
+    buttons:
+        usage: true
+        amount: 3
+        textLength: 26

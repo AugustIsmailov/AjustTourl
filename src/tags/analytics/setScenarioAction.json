@@ -1,0 +1,29 @@
+{
+    "tagName": "SetScenarioAction",
+    "customTagType": "JS",
+    "scenarioFile": "tags/analytics/analytics.js",
+    "functionName": "setScenarioAction",
+    "caption": {
+        "ru": "Действие в сценарии",
+        "eng": "Action in the script"
+    },
+    "description": {
+        "ru": "Этот блок фиксирует, что в сценарии было совершено определенное действие.",
+        "eng": "This block records that a specific action took place in the script."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Название",
+                "eng": "Name"
+            },
+            "description": {
+                "ru": "Название действия. Оно будет записано в аналитику по проекту.",
+                "eng": "Action name. It will be recorded to project analytics."
+            }
+        }
+    ]
+}

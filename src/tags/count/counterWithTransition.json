@@ -1,0 +1,72 @@
+{
+    "tagName": "CounterWithTransition",
+    "customTagType": "JS",
+    "scenarioFile": "tags/count/count.js",
+    "functionName": "counterWithTransition",
+    "caption": {
+        "ru": "Счетчик переходов в шаг",
+        "eng": "State transition counter"
+    },
+    "description": {
+        "ru": "Считает, сколько раз бот перешел в шаг, который содержит счетчик. Если значение счетчика превысит лимит, бот перейдет в другой шаг. Значение счетчика доступно в <code>$session.repeats[\"Идентификатор\"]</code> или <code>$session.repeatsInRow[\"Идентификатор\"]</code>, если считается количество переходов подряд.",
+        "eng": "Counts how many times the bot transitioned to a state that contains the counter. If the counter value exceeds the limit, the bot will go to another state. The counter value is available in <code>$session.repeats[\"ID\"]</code> or <code>$session.repeatsInRow[\"ID\"]</code> if transitions in a row are counted."
+    },
+    "hint": {
+        "ru": "Увеличить счетчик и перейти в другой шаг, если лимит превышен",
+        "eng": "Increase the counter and go to another state if the limit is exceeded"
+    },
+    "parameters": [
+        {
+            "name": "inRow",
+            "type": "bool",
+            "required": true,
+            "localization": {
+                "ru": "Подряд",
+                "eng": "In a row"
+            },
+            "description": {
+                "ru": "Если параметр выключен, значение счетчика хранится всю сессию. Если параметр активен, считаются только переходы подряд и значение сбрасывается при переходе в шаг без счетчика.",
+                "eng": "If the parameter is disabled, the counter value is stored for the entire session. If the parameter is active, only transitions in a row are counted and the value is reset when the bot goes to a state with no counter."
+            }
+        },
+        {
+            "name": "limit",
+            "type": "integer",
+            "required": true,
+            "localization": {
+                "ru": "Лимит",
+                "eng": "Limit"
+            },
+            "description": {
+                "ru": "Если значение счетчика превысит лимит, бот перейдет в целевой шаг.",
+                "eng": "If the counter value exceeds the limit, the bot will go to the target state."
+            }
+        },
+        {
+            "name": "key",
+            "type": "string",
+            "required": false,
+            "localization": {
+                "ru": "Идентификатор",
+                "eng": "ID"
+            },
+            "description": {
+                "ru": "Вы можете использовать несколько счетчиков в сценарии. Идентификатор определяет, какой счетчик будет увеличен. Значение по умолчанию: путь до текущего шага.",
+                "eng": "You can use multiple counters in a script. The ID determines which counter will be increased. Default value: the path to the current state."
+            }
+        },
+        {
+            "name": "targetState",
+            "type": "state",
+            "required": true,
+            "localization": {
+                "ru": "Целевой шаг",
+                "eng": "Target state"
+            },
+            "description": {
+                "ru": "Бот перейдет в этот шаг, если счетчик превысит лимит.",
+                "eng": "The bot will switch to this state if the counter exceeds the limit."
+            }
+        }
+    ]
+}

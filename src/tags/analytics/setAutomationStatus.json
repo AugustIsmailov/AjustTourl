@@ -1,0 +1,25 @@
+{
+    "tagName": "SetAutomationStatus",
+    "customTagType": "JS",
+    "scenarioFile": "tags/analytics/analytics.js",
+    "functionName": "setAutomationStatus",
+    "caption": {
+        "ru": "Статус автоматизации",
+        "eng": "Automation status"
+    },
+    "description": {
+        "ru": "Этот блок фиксирует статус автоматизации диалога: успешно ли решил бот вопрос пользователя или перевел диалог на оператора.",
+        "eng": "This block sets the dialog automation status: whether the bot successfully resolved the user’s request or transferred the dialog to an agent."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "bool",
+            "required": true,
+            "localization": {
+                "ru": "Успешная автоматизация",
+                "eng": "Automation was successful"
+            }
+        }
+    ]
+}

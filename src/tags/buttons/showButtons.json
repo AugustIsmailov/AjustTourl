@@ -1,0 +1,57 @@
+{
+    "tagName": "ShowButtons",
+    "customTagType": "JS",
+    "scenarioFile": "tags/buttons/buttons.js",
+    "functionName": "showButtons",
+    "caption": {
+        "ru": "Вывод кнопок",
+        "eng": "Display buttons"
+    },
+    "description": {
+        "ru": "Используйте этот блок, чтобы вывести в чат кнопки. Блок учитывает особенности каналов, такие как поддерживаемые типы кнопок и ограничения на их длину.",
+        "eng": "Use this block to display buttons in the chat. The block is aware of channel-specific features, such as supported button types and restrictions on their length."
+    },
+    "parameters": [
+        {
+            "name": "inline",
+            "type": "bool",
+            "required": false,
+            "localization": {
+                "ru": "Инлайн-кнопки",
+                "eng": "Inline buttons"
+
+            },
+            "description": {
+                "ru": "Если этот параметр активен, то бот выведет инлайн-кнопки. Если нет или если канал их не поддерживает — обычные.",
+                "eng": "If this parameter is enabled, the bot will display inline buttons. Otherwise or if the channel doesn’t support them, regular buttons will be used."
+            }
+        },
+        {
+            "name": "other",
+            "type": "bool",
+            "required": false,
+            "localization": {
+                "ru": "Показать кнопку «Другое»",
+                "eng": "Show “Другое” button"
+
+            },
+            "description": {
+                "ru": "Если этот параметр активен, после указанных ниже кнопок будет выведена кнопка «Другое».",
+                "eng": "If this parameter is enabled, the buttons specified below will be followed by a “Другое” button."
+            }
+        },
+        {
+            "name": "buttons",
+            "type": "stringArray",
+            "required": true,
+            "localization": {
+                "ru": "Кнопки",
+                "eng": "Buttons"
+            },
+            "description": {
+                "ru": "Блок выведет столько кнопок, сколько поддерживает канал.",
+                "eng": "The block will display as many buttons as supported by the channel."
+            }
+        }
+    ]
+}

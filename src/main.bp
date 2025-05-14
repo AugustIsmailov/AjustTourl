@@ -1,0 +1,55 @@
+{
+  "positions" : [ {
+    "id" : "/Start",
+    "x" : -643,
+    "y" : 483
+  }, {
+    "id" : "/Hello",
+    "x" : -245,
+    "y" : 483
+  }, {
+    "id" : "/CompanyIntroduction",
+    "x" : 128,
+    "y" : 488
+  }, {
+    "id" : "/HowCanIHelpYou",
+    "x" : 512,
+    "y" : 479
+  }, {
+    "id" : "/SomethingElse",
+    "x" : 1438,
+    "y" : 472
+  }, {
+    "id" : "/SomethingElseAfterFail",
+    "x" : 1423,
+    "y" : 1432
+  }, {
+    "id" : "/GoodBye",
+    "x" : 2404,
+    "y" : 470
+  }, {
+    "id" : "/HangUp",
+    "x" : 290,
+    "y" : 1142
+  }, {
+    "id" : "/Offtopic",
+    "x" : 931,
+    "y" : -302
+  }, {
+    "id" : "/FAQ",
+    "x" : 935,
+    "y" : 471
+  }, {
+    "id" : "/TransferTriggers",
+    "x" : 971,
+    "y" : 1429
+  }, {
+    "id" : "/NPS",
+    "x" : 1968,
+    "y" : 465
+  }, {
+    "id" : "/Other",
+    "x" : 519,
+    "y" : -298
+  } ]
+}

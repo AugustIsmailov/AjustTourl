@@ -1,0 +1,91 @@
+{
+    "tagName": "Answer",
+    "customTagType": "JS",
+    "scenarioFile": "tags/answer/answer.js",
+    "functionName": "answer",
+    "caption": {
+        "ru": "Ответ из базы знаний",
+        "eng": "Answer from knowledge base"
+    },
+    "description": {
+        "ru": "Используйте этот блок, чтобы отправить ответ из базы знаний по указанной логике.",
+        "eng": "Use this block to send an answer from the knowledge base using the specified logic."
+    },
+    "parameters": [
+        {
+            "name": "mode",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Логика выбора ответа",
+                "eng": "Answer selection logic"
+
+            },
+            "description": {
+                "ru": "Определяет, какой ответ будет выбран.",
+                "eng": "Determines which answer will be selected."
+            },
+            "userInterfaceField": {
+                "type": "select",
+                "options": [
+                  {
+                      "value": "by session number",
+                      "localization": {
+                        "ru": "По номеру сессии",
+                        "eng": "By session number"
+                      }
+                  },
+                  {
+                    "value": "next",
+                    "localization": {
+                        "ru": "Следующий по порядку",
+                        "eng": "Next in order"
+                    }
+                },
+                {
+                    "value": "random",
+                    "localization": {
+                        "ru": "Случайный",
+                        "eng": "Random"
+                    }
+                },
+                {
+                    "value": "all",
+                    "localization": {
+                        "ru": "Все",
+                        "eng": "All"
+                    }
+                }
+              ]
+            }
+        },
+        {
+            "name": "key",
+            "type": "string",
+            "required": false,
+            "localization": {
+                "ru": "Название вопроса",
+                "eng": "Question name"
+
+            },
+            "description": {
+                "ru": "По умолчанию ответ берется из вопроса, который соответствует интенту, по которому бот попадает в шаг. Если вы хотите использовать другой ответ или не задали интент, укажите здесь название нужного вопроса из модуля базы знаний «FAQ.Контент».",
+                "eng": "By default, the answer is taken from the question corresponding to the intent by which the bot enters this state. If you want to use an answer from elsewhere or haven’t used any intents, specify the name of the necessary question from the “FAQ.Контент” knowledge base module."
+            }
+        },
+        {
+            "name": "setResult",
+            "type": "bool",
+            "required": false,
+            "localization": {
+                "ru": "Записать название вопроса FAQ как результат сессии",
+                "eng": "Record FAQ question name as session result"
+
+            },
+            "description": {
+                "ru": "Результаты сессий доступны в аналитике по проекту.",
+                "eng": "Session results are available in the project analytics."
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+name: faq-chatbot-solution
+
+entryPoint: main.sc
+
+botEngine: v2
+language: ru
+
+tests:
+  include:
+    - temp.xml
+    - tests.xml
+    - timeout.xml
+    - channels.xml
+
+nlp:
+  intentNoMatchThresholds:
+    phrases: 0.4
+    patterns: 0.05
+  modifyRequestInPreMatch: true
+  considerContextDepthInStateSelectionV2: false
+
+customTags:
+  - src/tags/count/counterWithTransition.json
+  - src/tags/answer/answer.json
+  - src/tags/answer/utcGreeting.json
+  - src/tags/analytics/setAutomationStatus.json
+  - src/tags/analytics/setScenarioAction.json
+  - src/tags/analytics/setSessionTopic.json
+  - src/tags/analytics/setSessionTopicFAQ.json
+  - src/tags/analytics/setSessionResult.json
+  - src/tags/analytics/evaluation.json
+  - src/tags/transfer/transferWithWorkingHours.json
+  - src/tags/transfer/getTransferReceiverByTopic.json
+  - src/tags/transfer/setTransferReceiverByDefault.json
+  - src/tags/timeout/timeout.json
+  - src/tags/buttons/showButtons.json
+  - src/tags/other/startSession.json

@@ -1,0 +1,3 @@
+function startSession() {
+    $jsapi.startSession();
+}

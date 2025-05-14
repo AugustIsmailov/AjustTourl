@@ -1,0 +1,530 @@
+{
+  "version" : 1,
+  "stickers" : {
+    "0bd296d5-94b6-4950-9703-f6aa84a4e94c" : {
+      "id" : "0bd296d5-94b6-4950-9703-f6aa84a4e94c",
+      "content" : "Просьба перевести на оператора",
+      "fontSize" : 34,
+      "color" : "yellow",
+      "position" : {
+        "x" : 592,
+        "y" : 1156
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688519865
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692001510
+        }
+      }
+    },
+    "1b221fcf-717e-4503-9502-fe763dcb8cba" : {
+      "id" : "1b221fcf-717e-4503-9502-fe763dcb8cba",
+      "content" : "Глобальная обработка нераспознанной реплики пользоателя",
+      "fontSize" : 24,
+      "color" : "yellow",
+      "position" : {
+        "x" : 190,
+        "y" : 1181
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703689992815
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703691995390
+        }
+      }
+    },
+    "1c978e10-bc71-4ac8-ab45-5501ea258e4f" : {
+      "id" : "1c978e10-bc71-4ac8-ab45-5501ea258e4f",
+      "content" : "Тематики с переводом на оператора",
+      "fontSize" : 34,
+      "color" : "yellow",
+      "position" : {
+        "x" : 980,
+        "y" : 1148
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688548943
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692007966
+        }
+      }
+    },
+    "1f6e23ad-b4ff-496e-9b99-017bf99aafd7" : {
+      "id" : "1f6e23ad-b4ff-496e-9b99-017bf99aafd7",
+      "content" : "\"Чем могу помочь?\"",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 511,
+        "y" : 213
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687803151
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688993154
+        }
+      }
+    },
+    "21889f39-563a-434e-9cc6-43855b1b102b" : {
+      "id" : "21889f39-563a-434e-9cc6-43855b1b102b",
+      "content" : "\"Остались ли еще вопросы?\", если была ошибка",
+      "fontSize" : 26,
+      "color" : "yellow",
+      "position" : {
+        "x" : 1452,
+        "y" : 1065
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703689833700
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703689864944
+        }
+      }
+    },
+    "31b027cd-ecc4-4477-acfd-86ed74c8141f" : {
+      "id" : "31b027cd-ecc4-4477-acfd-86ed74c8141f",
+      "content" : "Завершение диалога",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 2458,
+        "y" : 174
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688358910
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703689008009
+        }
+      }
+    },
+    "332e1113-fd65-49cd-8bca-298f2ebb40b6" : {
+      "id" : "332e1113-fd65-49cd-8bca-298f2ebb40b6",
+      "content" : "Реакция на нецензурную лексику",
+      "fontSize" : 34,
+      "color" : "yellow",
+      "position" : {
+        "x" : -226,
+        "y" : 1161
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703691962580
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703691982796
+        }
+      }
+    },
+    "3a178f05-b0b4-4db3-9f3f-57b576633313" : {
+      "id" : "3a178f05-b0b4-4db3-9f3f-57b576633313",
+      "content" : "Обработка логики таймаута",
+      "fontSize" : 34,
+      "color" : "purple",
+      "position" : {
+        "x" : 2427,
+        "y" : 2111
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688096917
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692378383
+        }
+      }
+    },
+    "45028097-811f-454c-b679-19152a0e2bef" : {
+      "id" : "45028097-811f-454c-b679-19152a0e2bef",
+      "content" : "Приветствие",
+      "fontSize" : 60,
+      "color" : "cian",
+      "position" : {
+        "x" : -238,
+        "y" : 204
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687757160
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688986149
+        }
+      }
+    },
+    "52df26da-d6c7-4a41-a63a-966032cd61d4" : {
+      "id" : "52df26da-d6c7-4a41-a63a-966032cd61d4",
+      "content" : "Обработчик ошибок при превышении лимита ввода",
+      "fontSize" : 30,
+      "color" : "purple",
+      "position" : {
+        "x" : 1891,
+        "y" : 2105
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688026620
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692390975
+        }
+      }
+    },
+    "95266ddc-a6aa-444e-98fc-b961a8dcff0e" : {
+      "id" : "95266ddc-a6aa-444e-98fc-b961a8dcff0e",
+      "content" : "Ответ на вопрос из FAQ модуля",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 930,
+        "y" : 212
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687865892
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688996567
+        }
+      }
+    },
+    "ad0a84d0-4391-4f89-9d5e-ebc2b56c8ef8" : {
+      "id" : "ad0a84d0-4391-4f89-9d5e-ebc2b56c8ef8",
+      "content" : "Реакция на \"Другое\"",
+      "fontSize" : 34,
+      "color" : "yellow",
+      "position" : {
+        "x" : 513,
+        "y" : -585
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703689491044
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692274333
+        }
+      }
+    },
+    "b62640db-2d07-445f-ab86-03d45c9e07a0" : {
+      "id" : "b62640db-2d07-445f-ab86-03d45c9e07a0",
+      "content" : "Начинаем диалоговую сессию",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : -634,
+        "y" : 210
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687664627
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688981279
+        }
+      }
+    },
+    "c46e1514-eaed-4b1e-983c-606be19d0569" : {
+      "id" : "c46e1514-eaed-4b1e-983c-606be19d0569",
+      "content" : "Обработка ошибок",
+      "fontSize" : 48,
+      "color" : "purple",
+      "position" : {
+        "x" : 1503,
+        "y" : 2104
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703691890749
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692313791
+        }
+      }
+    },
+    "c6677aae-42cb-47cf-955d-d2dc183beb11" : {
+      "id" : "c6677aae-42cb-47cf-955d-d2dc183beb11",
+      "content" : "Реакция на некорректное распознавание тематики",
+      "fontSize" : 30,
+      "color" : "yellow",
+      "position" : {
+        "x" : 1970,
+        "y" : -594
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703692128907
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692197112
+        }
+      }
+    },
+    "c93e8b72-4098-49e2-936b-bd38bcb14f55" : {
+      "id" : "c93e8b72-4098-49e2-936b-bd38bcb14f55",
+      "content" : "Ответ на вопрос из Offtopic модуля",
+      "fontSize" : 30,
+      "color" : "yellow",
+      "position" : {
+        "x" : 943,
+        "y" : -583
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687925120
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703689465462
+        }
+      }
+    },
+    "cdba845a-e1da-47aa-a8ba-bedb909e9b6b" : {
+      "id" : "cdba845a-e1da-47aa-a8ba-bedb909e9b6b",
+      "content" : "Перевод на оператора",
+      "fontSize" : 34,
+      "color" : "purple",
+      "position" : {
+        "x" : 1008,
+        "y" : 2102
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688586961
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692308687
+        }
+      }
+    },
+    "ce5aaa13-9337-4827-b1ee-6b6689274650" : {
+      "id" : "ce5aaa13-9337-4827-b1ee-6b6689274650",
+      "content" : "\"Остались ли еще вопросы?\"",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 1447,
+        "y" : 198
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688218197
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688999687
+        }
+      }
+    },
+    "d456965e-b96e-40f3-9378-5a4381f78a8d" : {
+      "id" : "d456965e-b96e-40f3-9378-5a4381f78a8d",
+      "content" : "Представление компании",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 127,
+        "y" : 204
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687787775
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703688989980
+        }
+      }
+    },
+    "dc66652f-cfee-4010-9b30-ff27b9bcc492" : {
+      "id" : "dc66652f-cfee-4010-9b30-ff27b9bcc492",
+      "content" : "Реакция на благодарность",
+      "fontSize" : 34,
+      "color" : "yellow",
+      "position" : {
+        "x" : 1430,
+        "y" : -611
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703688300217
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703692150713
+        }
+      }
+    },
+    "f99580de-2e51-4560-b812-15d8574aaffb" : {
+      "id" : "f99580de-2e51-4560-b812-15d8574aaffb",
+      "content" : "Просьба оценить диалог",
+      "fontSize" : 34,
+      "color" : "cian",
+      "position" : {
+        "x" : 1979,
+        "y" : 182
+      },
+      "stagePath" : "",
+      "connection" : {
+        "position" : "",
+        "statePath" : ""
+      },
+      "history" : {
+        "createdBy" : {
+          "userId" : 262157618,
+          "time" : 1703687955194
+        },
+        "lastUpdatedBy" : {
+          "userId" : 262157618,
+          "time" : 1703689004914
+        }
+      }
+    }
+  }
+}

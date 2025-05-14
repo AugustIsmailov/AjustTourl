@@ -1,0 +1,29 @@
+{
+    "tagName": "SetSessionTopicFAQ",
+    "customTagType": "JS",
+    "scenarioFile": "tags/analytics/analytics.js",
+    "functionName": "setSessionTopicFAQ",
+    "caption": {
+        "ru": "Тема диалога (FAQ)",
+        "eng": "Conversation topic (FAQ)"
+    },
+    "description": {
+        "ru": "Этот блок фиксирует тему, на которую пользователь общается с ботом. Если не указать название темы, будет использовано название вопроса из FAQ, по которому бот перешел в текущий шаг.",
+        "eng": "This block records the topic on which the user communicates with the bot. If you don’t specify the topic name, the block will use the name of the FAQ question by which the bot entered the current state."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "string",
+            "required": false,
+            "localization": {
+                "ru": "Название",
+                "eng": "Name"
+            },
+            "description": {
+                "ru": "Название темы. Оно будет записано в аналитику по проекту.",
+                "eng": "Topic name. It will be recorded to project analytics."
+            }
+        }
+    ]
+}

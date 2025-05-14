@@ -1,0 +1,42 @@
+{
+    "tagName": "Timeout",
+    "customTagType": "JS",
+    "scenarioFile": "tags/timeout/timeout.js",
+    "functionName": "timeout",
+    "caption": {
+        "ru": "Таймаут",
+        "eng": "Timeout"
+    },
+    "description": {
+        "ru": "Используйте этот блок, чтобы бот автоматически перешел в другой шаг, если пользователь долго не отвечает.",
+        "eng": "Use this block to make the bot switch to another state automatically if the user doesn’t reply for a long time."
+    },
+    "parameters": [
+        {
+            "name": "interval",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Время ожидания",
+                "eng": "Time to wait"
+            },
+            "description": {
+                "ru": "Время в секундах, в течение которого бот будет ожидать ответ от пользователя.",
+                "eng": "The number of seconds the bot will wait for a user reply."
+            }
+        },
+        {
+            "name": "targetState",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Следующий шаг",
+                "eng": "Next state"
+            },
+            "description": {
+                "ru": "Бот перейдет в этот шаг, если время ожидания превысит указанное значение.",
+                "eng": "The bot will switch to this state if it has to wait longer than the specified time."
+            }
+        }
+    ]
+}

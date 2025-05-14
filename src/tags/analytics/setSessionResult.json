@@ -1,0 +1,29 @@
+{
+    "tagName": "SetSessionResult",
+    "customTagType": "JS",
+    "scenarioFile": "tags/analytics/analytics.js",
+    "functionName": "setSessionResult",
+    "caption": {
+        "ru": "Результат сессии",
+        "eng": "Session result"
+    },
+    "description": {
+        "ru": "Этот блок записывает результат сессии. Результат будет доступен в аналитике по проекту.",
+        "eng": "This block records the session result. The result will be available in the project analytics."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Результат",
+                "eng": "Result"
+            },
+            "description": {
+                "ru": "Значение будет записано в аналитику по проекту и в отчет по сессиям.",
+                "eng": "The value will be recorded to the project analytics and the session report."
+            }
+        }
+    ]
+}

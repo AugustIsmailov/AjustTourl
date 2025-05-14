@@ -1,0 +1,29 @@
+{
+    "tagName": "SetSessionTopic",
+    "customTagType": "JS",
+    "scenarioFile": "tags/analytics/analytics.js",
+    "functionName": "setSessionTopic",
+    "caption": {
+        "ru": "Тема диалога",
+        "eng": "Conversation topic"
+    },
+    "description": {
+        "ru": "Этот блок фиксирует тему, на которую пользователь общается с ботом.",
+        "eng": "This block records the topic on which the user communicates with the bot."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Название",
+                "eng": "Name"
+            },
+            "description": {
+                "ru": "Название темы. Оно будет записано в аналитику по проекту.",
+                "eng": "Topic name. It will be recorded to project analytics."
+            }
+        }
+    ]
+}

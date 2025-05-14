@@ -1,0 +1,78 @@
+{
+    "tagName": "TransferWithWorkingHours",
+    "customTagType": "JS",
+    "scenarioFile": "tags/transfer/transfer.js",
+    "functionName": "transferWithWorkingHours",
+    "caption": {
+        "ru": "Проверка рабочего времени",
+        "eng": "Check for working hours"
+    },
+    "description": {
+        "ru": "Этот блок проверяет, входит ли текущее время в промежуток рабочего времени, и переводит диалог в соответствующий шаг.",
+        "eng": "This block checks if the current time is within the working time interval and switches the dialog to another state."
+    },
+    "parameters": [
+        {
+            "name": "timeZone",
+            "type": "integer",
+            "required": true,
+            "localization": {
+                "ru": "Часовой пояс",
+                "eng": "Time zone"
+            },
+            "description": {
+                "ru": "Смещение часового пояса, относительно которого рассчитывается текущее время, от часового пояса UTC.",
+                "eng": "The UTC offset of the time zone relative to which the current time should be calculated."
+            }
+        },
+        {
+            "name": "onlyWorkDays",
+            "type": "bool",
+            "required": true,
+            "localization": {
+                "ru": "Учитывать выходные",
+                "eng": "Exclude weekends"
+            },
+            "description": {
+                "ru": "Если этот параметр активен, суббота и воскресенье будут считаться нерабочими днями.",
+                "eng": "If this parameter is enabled, Saturday and Sunday will be considered non-working days."
+            }
+        },
+        {
+            "name": "min",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Время начала работы в формате «HH:mm».",
+                "eng": "The time when working hours start, in “HH:mm” format."
+            }
+        },
+        {
+            "name": "max",
+            "type": "string",
+            "required": true,
+            "localization": {
+                "ru": "Время окончания работы в формате «HH:mm».",
+                "eng": "The time when working hours end, in “HH:mm” format."
+            }
+        },
+        {
+            "name": "stateAvailable",
+            "type": "state",
+            "required": true,
+            "localization": {
+                "ru": "Шаг, если время рабочее",
+                "eng": "State to go to when within working hours"
+            }
+        },
+        {
+            "name": "stateUnavailable",
+            "type": "state",
+            "required": true,
+            "localization": {
+                "ru": "Шаг, если время нерабочее",
+                "eng": "State to go to when outside working hours"
+            }
+        }
+    ]
+}

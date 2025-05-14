@@ -1,0 +1,41 @@
+{
+    "tagName": "NPS",
+    "startState": "/Evaluation/Request",
+    "scenarioFile": "tags/analytics/evaluation.sc",
+    "caption": {
+        "ru": "Запрос оценки диалога",
+        "eng": "Request dialog evaluation"
+    },
+    "description": {
+        "ru": "Используйте этот блок, чтобы попросить пользователя оценить диалог и записать оценку в отчет по сессиям. Фразы бота берутся из группы «Оценка» в модуле базы знаний «FAQ.Контент». Для данного действия используется сущность 'evaluation'. С её помощью можно расширить список фраз для той или иной оценки, а также изменить передаваемое значение оценки.",
+        "eng": "Use this block to ask the user to evaluate the dialog and record this score to the session report. The bot phrases are taken from the “Оценка” group in the “FAQ.Контент” knowledge base module. The 'evaluation' entity is used for this action. With it, you can expand the list of phrases for a particular rating, as well as change the transmitted value of the rating."
+    },
+    "parameters": [
+        {
+            "name": "buttons",
+            "type": "stringArray",
+            "required": true,
+            "localization": {
+                "ru": "Кнопки",
+                "eng": "Buttons"
+            },
+            "description": {
+                "ru": "Бот выведет в чат эти кнопки. Пользователь сможет дать оценку по нажатию на одну из них.",
+                "eng": "The bot will display these buttons in the chat. The user can give their evaluation by selecting one of them."
+            }
+        },
+        {
+            "name": "successState",
+            "type": "state",
+            "required": true,
+            "localization": {
+                "ru": "Следующий шаг",
+                "eng": "Next state"
+            },
+            "description": {
+                "ru": "Бот перейдет в этот шаг, когда пользователь даст оценку.",
+                "eng": "The bot will switch to this state when the user gives their evaluation."
+            }
+        }
+    ]
+}

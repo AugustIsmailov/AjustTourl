@@ -1,0 +1,15 @@
+{
+    "tagName": "GetTransferReceiverByTopic",
+    "customTagType": "JS",
+    "scenarioFile": "tags/transfer/transfer.js",
+    "functionName": "getTransferReceiverByTopic",
+    "caption": {
+        "ru": "Получить номер оператора",
+        "eng": "Retrieve agent phone number"
+    },
+    "description": {
+        "ru": "Используйте этот блок на шаге перевода на оператора, чтобы получить номер оператора из сработавшего интента базы знаний. Если номер не найден, будет использоваться номер по умолчанию.",
+        "eng": "Use this block in the transfer to agent state to retrieve the agent’s phone number from the triggered knowledge base intent. If the number is not found, the default number will be used."
+    },
+    "parameters": []
+}

@@ -1,0 +1,15 @@
+{
+    "tagName": "StartSession",
+    "customTagType": "JS",
+    "scenarioFile": "tags/other/functions.js",
+    "functionName": "startSession",
+    "caption": {
+        "ru": "Начать сессию",
+        "eng": "Start session"
+    },
+    "description": {
+        "ru": "Используйте этот блок на стартовом шаге сценария, чтобы бот начал новую сессию.",
+        "eng": "Use this block in the start state of your script. This will make the bot start a new session."
+    },
+    "parameters": []
+}

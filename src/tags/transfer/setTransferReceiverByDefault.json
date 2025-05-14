@@ -1,0 +1,25 @@
+{
+    "tagName": "SetTransferReceiverByDefault",
+    "customTagType": "JS",
+    "scenarioFile": "tags/transfer/transfer.js",
+    "functionName": "setTransferReceiverByDefault",
+    "caption": {
+        "ru": "Задать номер оператора по умолчанию",
+        "eng": "Set default agent phone number"
+    },
+    "description": {
+        "ru": "Этот блок устанавливает номер оператора, который будет использоваться по умолчанию.",
+        "eng": "This block sets the agent’s phone number that will be used by default."
+    },
+    "parameters": [
+        {
+            "name": "value",
+            "type": "integer",
+            "required": true,
+            "localization": {
+                "ru": "Значение",
+                "eng": "Value"
+            }
+        }
+    ]
+}
